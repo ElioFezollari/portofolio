@@ -1,0 +1,80 @@
+header{
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+.hero{
+    position: relative;
+    overflow: hidden;
+    background-image: url(../../assets/background.svg);
+    height: 70vh !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.background{
+    min-width: 100%;
+    height: 60vh;
+    background-size: cover;
+}
+.hero img:nth-child(1){
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+    box-shadow: 120px 40px 2px #31363F;
+}
+
+.hero-text{
+    max-width: 600px;
+    font-size: 14px;
+}
+
+#sw-js-blob-svg{
+    position: absolute;
+    top: 0;
+}
+.hero-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:300px;
+    color: white;
+}
+.typed-cursor{
+    display: none;
+}
+.changing-text{
+    width: 4000px;
+}
+.changing-text .text{
+    position: relative;
+    font-size: 50px;
+    font-weight: 600;
+    color: #CCF381;
+    padding: 0 5px;
+}
+
+.changing-text .first-text{
+    color: white;
+}
+
+
+
+.two-skills{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-between;
+    font-size: 12px;
+    gap: 20px;
+    color: white;
+}

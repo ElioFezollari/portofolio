@@ -1,0 +1,34 @@
+/*ABOUT ME */
+.about-me{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+.about-me-wrapper{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+.about-me div div{
+    width: 50%;
+    
+}
+.about h2{
+    margin-top: 100px;
+}
+.goal img{
+    margin-top: 50px;
+}
+.about-me h2{
+    color: #222831;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    
+}
