@@ -18,7 +18,7 @@ const Index = () => {
             <span></span>
           </label>
         </header>
-        <section className="background hero" id="hero">
+        <section className="background hero">
           <div className="hero-text">
             <div>
               <h1 className="hero-main"></h1>
@@ -47,7 +47,10 @@ const Index = () => {
             <img src={myPic}/>
           </div>
         </section>
-        <section className="about-me background" id="about-me">
+        <section className="about-me background">
+        <div>
+            <h2>What my goal is</h2>
+        </div>
           <div>
             <h2>About Me</h2>
             <p>
@@ -65,9 +68,11 @@ const Index = () => {
             </p>
           </div>
         </section>
-        <section className="projects background" id="projects"></section>
+        <section className="projects background"></section>
       </body>
     </div>
   );
 };
+
+
 export default Index;

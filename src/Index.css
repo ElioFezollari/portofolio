@@ -8,6 +8,9 @@
 *::-webkit-scrollbar {
     display: none;
 }
+body{
+    background-color: #EEEEEE;
+}
 html {
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
@@ -32,8 +35,8 @@ header{
 .hero{
     position: relative;
     overflow: hidden;
-    background-image: url(assets/background.svg);
-    height: 90vh !important;
+    background-image: url(./assets/background.svg);
+    height: 70vh !important;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -46,10 +49,11 @@ header{
 }
 .hero img:nth-child(1){
     border-radius: 100%;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     position: relative;
+    box-shadow: 120px 40px 2px #31363F;
 }
 
 .hero-text{
@@ -64,11 +68,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     height:300px;
-    color: #DBE7C9;
-}
-.hero-text h1{
-    display: inline;
-    font-size: 25px;
+    color: white;
 }
 .typed-cursor{
     display: none;
@@ -78,28 +78,27 @@ header{
 }
 .changing-text .text{
     position: relative;
-    font-size: 50px;
+    font-size: 70px;
 
     font-weight: 600;
     color: #CCF381;
     padding: 0 5px;
 }
-.changing-text .typed-cursor{
-    font-size: 50px;
-    font-weight: 600;
-    color: #E3FEF7;
-    display: inline-block;
-}
+
 .changing-text .first-text{
-    color: #DBE7C9;
+    color: white;
 }
+
+
+
 .two-skills{
     display: flex;
     width: 100%;
     margin-top: 50px;
     justify-content: space-between;
-    font-size: 12px;
-    color: #E3FEF7;
+    font-size: 16px;
+    gap: 20px;
+    color: white;
 }
 
 /*ABOUT ME */
@@ -121,7 +120,7 @@ header{
     text-decoration: underline;
 }
 .projects{
-    background-color: #50623A;
+
 }
 
 /*HAMBURGER MENU */
