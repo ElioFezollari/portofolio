@@ -1,21 +1,18 @@
 import "./Index.css";
 import Hero from "./components/Index/Hero";
 import About from "./components/Index/About";
+import Header from "./components/Index/Header";
+import Project from "./components/Index/Projects/Project";
+import Bio from "./components/Index/Bio/Bio";
 const Index = () => {
 
   return (
     <div>
-        <header>
-          <h2>Elio Fezollari</h2>
-          <label for="check">
-            <input type="checkbox" id="check" />
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-        </header>
+        <Header/>
         <Hero/>
         <About/>
+        <Bio/>
+        <Project/>
     </div>
   );
 };

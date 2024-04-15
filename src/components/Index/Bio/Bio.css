@@ -1,0 +1,19 @@
+.bio-sec-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831;
+    padding: 100px 0px 50px 0px;
+    color: #EEEEEE;
+}
+.bio-wrapper{
+    width: 70%;
+    display: flex;
+}
+.bio-wrapper img{
+    margin-left: 50px;
+}
+.bio-wrapper h2{
+    font-weight: 900;
+    font-size: 40px;
+}
