@@ -22,3 +22,18 @@
     grid-template-columns: 1fr 1fr;
     gap: 50px;
 }
+
+
+@media (max-width: 640px) {   
+    .project-wrapper h2 {
+        font-size: 25px;
+    }
+    .projects{
+        grid-template-columns: 1fr;
+    }
+    }  
+    @media (max-width: 851px) {
+        .projects{
+            grid-template-columns: 1fr ;
+        }
+       }

@@ -18,3 +18,14 @@
     align-items: center;
     width: 60%;
 }
+
+@media (orientation: portrait) and (max-width: 970px) {   
+    .strip{
+        height: 100%;
+    }
+    .strip div {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+    }
+}  

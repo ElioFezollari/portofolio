@@ -1,6 +1,6 @@
 import './Strip.css'
 const Strip = ({content,type}) =>{
-    const technologies = ["Java","Csharp","Html","Css","Javascript","Ajax","PHp",'bootstrap','mysql','sqlserver','xampp','react','github-white','nodejs','express']
+    const technologies = ["Java","Csharp","Html","Css","Javascript","Ajax","PHp",'bootstrap','mysql','sqlserver','xampp','react','github-white','nodejs']
     if(type == "text"){
     return(
         <div className="strip">

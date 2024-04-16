@@ -67,3 +67,23 @@ label{
     mix-blend-mode: difference;
    }
 
+   @media (max-width: 640px) {   
+    header img{
+      width: 250px;
+    }
+    label span{
+      background: #fff;
+      border-radius:10px;
+      height:6px;
+      margin: 7px 0;
+      transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    }
+    label{
+      z-index: 3;
+    }
+    header a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    }  

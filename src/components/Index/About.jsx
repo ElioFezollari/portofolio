@@ -1,9 +1,8 @@
 import "./About.css";
 import dots from "../../assets/dots.svg";
 import dotsfilled from "../../assets/dots-filled.svg";
-import { motion, useScroll } from "framer-motion";
+
 const About = () => {
-    const { scrollYProgress } = useScroll()
   return (
     <section className="about-me background">
       <div className="about-me-wrapper">

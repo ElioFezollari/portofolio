@@ -45,3 +45,33 @@
     text-decoration: none;
     color: black;
 }
+
+
+@media (max-width: 640px) {   
+    .project-tech-img {
+        width: 25px;
+        height: 25px;
+    }
+    .project-card a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-card a img {
+        width: 25px;
+        height: 25px;
+        margin-left: 0px;
+    }
+    .project-card p {
+        font-size: 12px;
+    }
+    .project-card h4{
+        font-size: 13px;
+    }
+    }  
+    @media (max-width: 1300px) {
+        .project-card p{
+            font-size: 11px;
+        }
+       }

@@ -3,7 +3,7 @@
     margin-top: 100px;
     display: flex;
     flex-direction: row;
-    height: 60vh;
+    min-height: 60vh;
     align-items: center;
     justify-content: center;
 }
@@ -32,3 +32,18 @@
     text-align: center;
     
 }
+
+@media (orientation: portrait) and (max-width: 970px) {   
+    .about-me-wrapper{
+        flex-direction: column;
+    }
+    .about-me div div{
+        width: 100%;
+    }
+    .about-me h2{
+        font-size: 30px;
+    }
+    .about {
+        margin-bottom: 50px;
+    }
+}  

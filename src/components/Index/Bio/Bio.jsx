@@ -1,6 +1,7 @@
 import "./Bio.css";
 import Lottie from "lottie-react";
 import animationData from "../../../assets/programming.json";
+import animationData2 from "../../../assets/Creative.json";
 import albania from "../../../assets/Albania.png";
 const Bio = () => {
   return (
@@ -34,13 +35,13 @@ const Bio = () => {
               without making your parents angry at you!
             </p>
           </div>
-          <div>
-            <img src={albania} alt="map of albania" />
+          <div className="lottie-2">
+          <Lottie className="about-me-lottie2" animationData={animationData2} />
           </div>
         </div>
       </div>
       <div className="more-about-me">
-        <Lottie     style={{ width: 5000 }} className="about-me-lottie" animationData={animationData} />
+        <Lottie className="about-me-lottie" animationData={animationData} />
         <div>
           <h2>So... what about now?</h2>
           <p>
