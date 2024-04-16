@@ -1,0 +1,20 @@
+.strip{
+    height: 20vh;
+    background-color: #222831;
+    color: #EEEEEE;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+#tech-strip{
+    justify-content: space-around;
+}
+.strip div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}

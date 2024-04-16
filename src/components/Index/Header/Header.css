@@ -13,8 +13,11 @@ label{
      height:7px;
      margin: 7px 0;
      transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
-   
    }
+   .black{
+    background-color: black;
+   }
+  
    header img{
     width: 350px;
    }
@@ -59,5 +62,8 @@ label{
      width:50%;
      transform: translate(30px,-11px) rotatez(45deg);
    
+   }
+   header svg{
+    mix-blend-mode: difference;
    }
 

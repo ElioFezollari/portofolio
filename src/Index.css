@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    
 }
 *::-webkit-scrollbar {
     display: none;
@@ -13,14 +14,7 @@ body{
 }
 html {
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-    -webkit-scroll-snap-type: y mandatory; 
-}
-
-section {
-    overscroll-behavior: inherit;
-    scroll-snap-align: start;
-    animation: smoothSnap 1s ease;
+    
 }
 
 
