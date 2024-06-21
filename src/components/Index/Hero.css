@@ -85,7 +85,7 @@ header{
     }  
 
     .changing-text .text {
-        font-size: 30px;
+        font-size: 20px;
     }
     .hero-text p {
         font-size: 12px;
@@ -94,4 +94,25 @@ header{
     .two-skills{
         flex-direction: column;
     }
+    .profile-pic-div{
+        display: none;
+    }
+    .changing-text{
+        width: 300px;
+        text-align: center;
+    }
+    .hero-text{
+        justify-content: center;
+    }
+
+    .hero-text p{
+        width: 100%;
+        text-align: center;
+    }
     }  
+    @media (max-width: 952px) { 
+        .hero img:nth-child(1){
+            width: 200px;
+            height: 200px;
+        }
+      }
