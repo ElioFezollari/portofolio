@@ -58,9 +58,9 @@ const Bio = () => {
         </div>
       </div>
       <div className="about-me-btn">
-      <a className="button" target="_blank" href="https://drive.google.com/file/d/1wQGlTeQKXPE0BlVhMKC7HQ7llK1uWx_1/view?usp=drive_link"><span>Get my Cover Letter</span></a>
-        <a className="button" target="_blank"href="https://drive.google.com/file/d/1NkMGhkxl9zTjt5sTEZQRgL0n6tayBQt_/view?usp=drive_link"><span>Get my Resume</span></a>
-        <a className="button" target="_blank" href="https://drive.google.com/file/d/1HEbHFmB0DvFAJ45ktTtlELGxqNUJOfcs/view?usp=drive_link"><span>Get my Transcripts</span></a>
+      <a className="button" target="_blank" href="https://drive.google.com/file/d/17fM40WuKRWGRoDkf80ua5Fc6EtrAMJsw/view?usp=drive_link"><span>Get my Cover Letter</span></a>
+        <a className="button" target="_blank"href="https://drive.google.com/file/d/1hslDzJaYH3ZPRC2W-lD7tkcR-LHisRqf/view?usp=drive_link"><span>Get my Resume</span></a>
+        <a className="button" target="_blank" href="https://drive.google.com/file/d/1DUHNOnq2whZsYuE6J-XQuat2a1vIOwIK/view?usp=drive_link"><span>Get my Transcripts</span></a>
       </div>
     </section>
   );

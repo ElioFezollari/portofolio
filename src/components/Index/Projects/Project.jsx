@@ -15,6 +15,12 @@ import mysql from "../../../assets/mysql.svg";
 import xampp from "../../../assets/ajax.svg";
 import ajax from "../../../assets/xampp.svg";
 import java from "../../../assets/java.svg";
+import reactimg from "../../../assets/react.svg";
+import reactrouter from "../../../assets/reactrouter.svg";
+import framermotion from "../../../assets/framer-motion.svg";
+import mongodb from "../../../assets/mongodb.svg";
+import nestJs from "../../../assets/nestjs.svg";
+import PetExpo from "../../../assets/PetExpo.png";
 const Project = () => {
   const images = [];
   const Projects = [
@@ -70,6 +76,18 @@ const Project = () => {
       Description:
         "Treasure Maze is a game built using only Java,JavaSwing and JavaFX. The purpose of the game is to collect the 7 treasures in the randomly-generated maze,and later escape through the door to advance to the next level.You have to do all of this without touching the purple walls which reset your position.The game also includes game saving and loading.",
       GitHub: "https://github.com/ElioFezollari/Treasure-Maze",
+    },
+    {
+      Name: "PetExpo",
+      img: PetExpo,
+      technology: {
+        name: ["React", "ReactRouter", "framer-motion","mongodb",'nestJs'],
+        techimg: [reactimg, reactrouter, framermotion,mongodb,nestJs],
+      },
+      type: "Fullstack",
+      Description:
+        "Pet Expo is a fullstack website built with React in the frontend, NestJs in the backend, and MongoDB as the database.The goal of this web application is to showcase dogs,cats and birds, added by the admins in the admin dashboard.This web application is a SPA that utilizes react-router for routing and framer-motion for beautiful animations.The backend is built with NestJS (Express framework) and a few smaller libraries.",
+      GitHub: "https://github.com/ElioFezollari/PetExpo-Fullstack",
     },
   ];
   return (
