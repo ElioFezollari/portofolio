@@ -40,7 +40,7 @@ const Strip = ({ content, type }) => {
     } else if (type === "technologies") {
         return (
             <div className="strip" id="tech-strip">
-                <h5>Technologies I am proficient at include but are not limited to:</h5>
+                <h5>Technologies I am proficient in include but are not limited to:</h5>
                 <div>
                     {technologies.map((tech, index) => (
                         <img className="project-tech-img" src={tech.img} alt={tech.name} key={index} />

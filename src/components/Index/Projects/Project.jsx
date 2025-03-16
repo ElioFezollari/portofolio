@@ -54,6 +54,23 @@ const Project = () => {
       Description:
         "NorthPole Booking is a full stack asp.net core application for a booking website that includes bookings for flights, cars and hotels (which include rooms). This application utilizes LINQ, Entity Framework Core, Entity Framework Core identity and more! Its features include but not limited to the ability Sign Up/Logging in,sending emails (through the SendGrid API),Authorization and Authentication,Role Management,Reviews by regular users,Addition of new Items by admins,Booking    ",
       GitHub: "https://github.com/ElioFezollari/NorthPole-Booking",
+      pages: [
+        {
+          img: northPole, 
+          subtitle: "Page 1 Overview",
+          description: "This page showcases the home page of the booking application. Users can view available flight, car, and hotel options.",
+        },
+        {
+          img: northPole, 
+          subtitle: "Booking Page",
+          description: "The booking page allows users to choose flights, cars, and hotels, and finalize their bookings.",
+        },
+        {
+          img: northPole, 
+          subtitle: "Admin Dashboard",
+          description: "The admin dashboard allows admins to manage users, bookings, and website content.",
+        },
+      ],
     },
     {
       Name: "PathFusion",
@@ -105,6 +122,7 @@ const Project = () => {
               projectType={project.type}
               projectDescription={project.Description}
               projectGithub={project.GitHub}
+              pages={project.pages}
             />
           ))}
         </div>
