@@ -79,6 +79,7 @@ const ProjectCard = ({
           goToNextPage={goToNextPage}
           goToPreviousPage={goToPreviousPage}
           closeModal={closeModal}
+          projectGithub={projectGithub}
         />
       )}
     </>

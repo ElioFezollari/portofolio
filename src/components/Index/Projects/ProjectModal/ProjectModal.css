@@ -9,18 +9,18 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
-  }
-  
-  .modal-content {
+}
+
+.modal-content {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
     width: 80%;
     position: relative;
-  }
-  
-  .close-btn {
+}
+
+.close-btn {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -28,69 +28,70 @@
     background: transparent;
     border: none;
     cursor: pointer;
-  }
-  
-  .modal-img {
+}
+
+.modal-img {
     width: 100%;
     height: auto;
     border-radius: 10px;
     margin-top: 10px;
-  }
-  
-  .page-carousel {
+}
+
+.page-carousel {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-  }
-  
-  .carousel-img {
+}
+
+.carousel-img, .carousel-video {
     width: 100%;
     height: auto;
     max-width: 500px;
     margin-bottom: 10px;
-  }
-  
-  .carousel-nav {
+    border-radius: 10px; /* Optional to match the image's rounded corners */
+}
+
+.carousel-nav {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-  }
-  
-  .carousel-btn {
+}
+
+.carousel-btn {
     padding: 10px 20px;
     background-color: #333;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-  }
-  
-  .carousel-btn:hover {
+}
+
+.carousel-btn:hover {
     background-color: #555;
-  }
-  
-  .carousel-btn:disabled {
+}
+
+.carousel-btn:disabled {
     background-color: #aaa;
     cursor: not-allowed;
-  }
-  
-  .github-link {
+}
+
+.github-link {
     text-align: center;
     margin-top: 20px;
-  }
-  
-  .github-btn {
+}
+
+.github-btn {
     background-color: #222831;
     color: white;
+    text-decoration: none;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-  }
-  
-  .github-btn:hover {
+}
+
+.github-btn:hover {
     background-color: #2d343d;
-  }
-  
+}

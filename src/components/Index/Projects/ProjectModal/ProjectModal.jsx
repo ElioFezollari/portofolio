@@ -10,16 +10,21 @@ const ProjectModal = ({
   goToNextPage,
   goToPreviousPage,
   closeModal,
-  projectGithub, 
+  projectGithub,
 }) => {
   const hasPages = pages && pages.length > 0;
   const currentPage = hasPages ? pages[currentPageIndex] : null;
   const showInitialContent = currentPageIndex === 0 || !hasPages;
+  const isSinglePage = hasPages && pages.length === 1;
 
+
+  
   return (
     <div className="modal-overlay" onClick={closeModal}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <button className="close-btn" onClick={closeModal}>X</button>
+        <button className="close-btn" onClick={closeModal}>
+          X
+        </button>
 
         {showInitialContent && (
           <>
@@ -29,19 +34,28 @@ const ProjectModal = ({
           </>
         )}
 
-        {hasPages && currentPageIndex > 0 && (
+        {hasPages && currentPageIndex>0 && (
           <div className="page-carousel">
-            <img
-              src={currentPage.img}
-              alt={currentPage.subtitle}
-              className="carousel-img"
-            />
+            {currentPage.isVideo ? (
+              <video
+                src={currentPage.img}
+                alt={currentPage.subtitle}
+                className="carousel-video"
+                controls
+              />
+            ) : (
+              <img
+                src={currentPage.img}
+                alt={currentPage.subtitle}
+                className="carousel-img"
+              />
+            )}
             <h3>{currentPage.subtitle}</h3>
             <p>{currentPage.description}</p>
           </div>
         )}
 
-        {hasPages && (
+        {hasPages && !isSinglePage && (
           <div className="carousel-nav">
             <button
               onClick={goToPreviousPage}
@@ -61,8 +75,8 @@ const ProjectModal = ({
         )}
 
         <div className="github-link">
-          <a href={projectGithub} target="_blank" rel="noopener noreferrer">
-            <button className="github-btn">View on GitHub</button>
+          <a href={projectGithub} className="github-btn" target="_blank" rel="noopener noreferrer" >
+            View on GitHub
           </a>
         </div>
       </div>

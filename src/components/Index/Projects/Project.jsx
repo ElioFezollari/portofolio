@@ -21,8 +21,13 @@ import framermotion from "../../../assets/framer-motion.svg";
 import mongodb from "../../../assets/mongodb.svg";
 import nestJs from "../../../assets/nestjs.svg";
 import PetExpo from "../../../assets/PetExpo.png";
+import room from "../../../assets/room.png"
+import roomVid from "../../../assets/room.mp4"
+import three from "../../../assets/threejs.png";
+import blender from "../../../assets/blender.png";
+import gsap from "../../../assets/gsap.png"
+
 const Project = () => {
-  const images = [];
   const Projects = [
     {
       Name: "NorthPole Booking",
@@ -53,19 +58,22 @@ const Project = () => {
       type: "Fullstack",
       Description:
         "NorthPole Booking is a full stack asp.net core application for a booking website that includes bookings for flights, cars and hotels (which include rooms). This application utilizes LINQ, Entity Framework Core, Entity Framework Core identity and more! Its features include but not limited to the ability Sign Up/Logging in,sending emails (through the SendGrid API),Authorization and Authentication,Role Management,Reviews by regular users,Addition of new Items by admins,Booking    ",
-      GitHub: "https://github.com/ElioFezollari/NorthPole-Booking",
+      GitHub: "https://github.com/ZaveriAum/COMP2139-Assignment1",
       pages: [
         {
+          id:1,
           img: northPole, 
           subtitle: "Page 1 Overview",
           description: "This page showcases the home page of the booking application. Users can view available flight, car, and hotel options.",
         },
         {
+          id:2,
           img: northPole, 
           subtitle: "Booking Page",
           description: "The booking page allows users to choose flights, cars, and hotels, and finalize their bookings.",
         },
         {
+          id:3,
           img: northPole, 
           subtitle: "Admin Dashboard",
           description: "The admin dashboard allows admins to manage users, bookings, and website content.",
@@ -105,6 +113,26 @@ const Project = () => {
       Description:
         "Pet Expo is a fullstack website built with React in the frontend, NestJs in the backend, and MongoDB as the database.The goal of this web application is to showcase dogs,cats and birds, added by the admins in the admin dashboard.This web application is a SPA that utilizes react-router for routing and framer-motion for beautiful animations.The backend is built with NestJS (Express framework) and a few smaller libraries.",
       GitHub: "https://github.com/ElioFezollari/PetExpo-Fullstack",
+    },
+    {
+      Name: "3D Room Portofolio",
+      img: room,
+      technology: {
+        name: ["React","ThreeJS","Blender","GSAP"],
+        techimg: [reactimg,three,blender,gsap],
+      },
+      type: "WebGL Frontend Website",
+      Description:
+        "This website is a 3d recreation of my real room. The room model was created with Blender, while the website itself is built using React, and R3F with GSAP for the camera animations. It is a simple yet unique website that provides an interactive and immersive experience, allowing visitors to explore a virtual version of my space. This website reflects the implementation of what I've learned from WebGL and 3D modeling.",
+      GitHub: "https://github.com/ElioFezollari/3D-Portofolio",
+      pages: [
+        {
+          id:1,
+          isVideo: true,
+          img: roomVid,  
+          subtitle: "Room Tour Video",
+          description: "A walkthrough of the 3D room portfolio.",
+        },]
     },
   ];
   return (

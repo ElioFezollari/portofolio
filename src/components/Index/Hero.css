@@ -54,6 +54,7 @@ header{
 }
 .changing-text{
     width: 4000px;
+    margin: 0 auto;
 }
 .changing-text .text{
     position: relative;
