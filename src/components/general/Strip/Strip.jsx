@@ -11,7 +11,7 @@ import xampp from "../../../assets/ajax.svg";
 import java from "../../../assets/java.svg";
 import reactimg from "../../../assets/react.svg";
 import nodejs from "../../../assets/nodejs.svg";
-import githubWhite from "../../../assets/github-white.svg";
+import githubWhite from "../../../assets/github.svg";
 import mongodb from "../../../assets/mongodb.svg";
 
 const Strip = ({ content, type }) => {
