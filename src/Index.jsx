@@ -5,6 +5,7 @@ import Header from "./components/Index/Header/Header";
 import Project from "./components/Index/Projects/Project";
 import Bio from "./components/Index/Bio/Bio";
 import Strip from "./components/general/Strip/Strip"
+import Professional from "./components/Index/Professional/Professional";
 const Index = () => {
 
   return (
@@ -14,7 +15,9 @@ const Index = () => {
         <About/>
         <Bio/>
         <Project/>
+        <Professional/>
         <Strip content={"Hello"} type="technologies"/>
+        
     </div>
   );
 };
