@@ -6,6 +6,51 @@ const Professional = () => {
       <h2>Work Experience</h2>
       <div className="work-div">
         <div className="title-div">
+          <h2>Research Assistant</h2>
+          <p>George Brown College</p>
+          <p>Contract - Toronto, Ontario, Canada</p>
+          <p>May 2025 - </p>
+        </div>
+        <div className="work-description">
+          <ul>
+            {" "}
+            <li>
+              {" "}
+              Built and maintained administrative interfaces using React,
+              streamlining internal workflows and data management for
+              non-technical stakeholders.{" "}
+            </li>{" "}
+            <li>
+              {" "}
+              Integrated Firebase Authentication and Firestore to securely
+              manage user roles, permissions, and dynamic data access within the
+              admin dashboard.{" "}
+            </li>{" "}
+            <li>
+              {" "}
+              Developed custom dashboards and data visualization components to
+              monitor key application metrics and user activity.{" "}
+            </li>{" "}
+            <li>
+              {" "}
+              Automated backend processes and Firebase Cloud Functions to handle
+              data validation, logging, and real-time updates for admin
+              operations.{" "}
+            </li>{" "}
+            <li>
+              {" "}
+              Collaborated with cross-functional teams to align admin tools with
+              evolving product needs, ensuring scalability and security best
+              practices.{" "}
+            </li>{" "}
+            <li>
+              Deployed and maintained the full admin platform on cloud infrastructure, leveraging Firebase Hosting, Firestore, and Cloud Functions to ensure secure, scalable, and high-availability deployment.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="work-div">
+        <div className="title-div">
           <h2>Student Researcher</h2>
           <p>George Brown College</p>
           <p>Contract - Toronto, Ontario, Canada</p>

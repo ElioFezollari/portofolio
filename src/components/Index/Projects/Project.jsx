@@ -34,6 +34,7 @@ import sportTrackr from "../../../assets/SportTrackr.png"
 import sportTrackrMobile from "../../../assets/SportTrackrMobile.mp4"
 import sportTrackrVid from "../../../assets/SportTrackr.mp4"
 import wireframe from "../../../assets/wireframe.png"
+import azure from "../../../assets/azure.png"
 const Project = () => {
   const Projects = [
     {
@@ -131,7 +132,7 @@ const Project = () => {
           "Bootstrap",
           "Csharp",
           "SqlServer",
-          "AJAX",
+          "Azure"
         ],
         techimg: [
           aspCore,
@@ -141,7 +142,7 @@ const Project = () => {
           bootstrap,
           csharp,
           sqlserver,
-          ajax,
+          azure
         ],
       },
 

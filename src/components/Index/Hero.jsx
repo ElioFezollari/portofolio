@@ -20,19 +20,14 @@ const Hero = () =>{
           <span className="text"><Cursor/></span>
         </div>
         <p>
-          I like to craft solid and scalable frontend products with great
-          user experiences.
+        Passionate about building end-to-end solutions, leveraging both front-end and back-end expertise to create cohesive, high-performing applications
         </p>
       </div>
       <div className="two-skills">
         <p>
-          Highly skilled at progressive enhancement, design systems & UI
-          Engineering.
+        Committed to lifelong learning in technology, with a passion for staying updated on the latest frameworks, tools, and trends in development.
         </p>
-        <p>
-          Proven experience building successful products for clients
-          across several countries.
-        </p>
+      
       </div>
     </div>
     <div className="profile-pic-div">
